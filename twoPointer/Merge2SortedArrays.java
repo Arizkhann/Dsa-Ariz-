@@ -25,19 +25,31 @@ public class Merge2SortedArrays {
         while (i < arr1.length && j < arr2.length) {
 
             if (arr1[i] <= arr2[j]) {
-                res[k++] = arr1[i++];
+                res[k] = arr1[i];
+                k++;
+                i++;
 
             } else {
-                res[k++] = arr2[j++];
-
+                res[k] = arr2[j];
+                k++;
+                j++;
             }
         }
             while (i<arr1.length){
-                res[k++]=arr1[i++];
+                res[k]=arr1[i];
+
+                k++;
+                i++;
+
             }
 
             while (j<arr2.length){
-                res[k++]=arr2[j++];
+                res[k]=arr2[j];
+
+                k++;
+                j++;
+
+
             }
 
 
