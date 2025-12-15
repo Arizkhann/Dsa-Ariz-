@@ -5,7 +5,7 @@ public class RemoveDuplicateFromSortedArray {
 
 
         int arr[]={1,1,2,2,3,4,4};
-        int n=arr.length;
+
         int lenOfNonDupElement=removeDuplicate(arr);
         System.out.println(lenOfNonDupElement);
 
