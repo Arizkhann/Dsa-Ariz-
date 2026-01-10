@@ -15,14 +15,9 @@ public class FreqOfCharInSTring {
 
         for (int i=0;i<s.length();i++){
 
-            if(map.containsKey(arr[i])){
-               map.put(arr[i], map.get(arr[i])+1);
 
-            }
+            map.put(arr[i],map.getOrDefault(arr[i],0)+1);
 
-            else {
-                map.put(arr[i],1);
-            }
 
         }
 
