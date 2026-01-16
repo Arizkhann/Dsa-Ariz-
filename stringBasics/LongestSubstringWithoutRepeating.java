@@ -33,3 +33,4 @@ public class LongestSubstringWithoutRepeating {
         System.out.println("Longest length: " + maxLength);
     }
 }
+// 2nd problem
