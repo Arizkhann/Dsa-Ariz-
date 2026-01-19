@@ -1,4 +1,4 @@
-package slidingWindow;
+package slidingWindow.variableSizeSlidingWindow;
 
 public class LongestSubarraySumLessThanX {
     public static void main(String[] args) {
