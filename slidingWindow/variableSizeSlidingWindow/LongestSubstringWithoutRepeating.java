@@ -1,4 +1,4 @@
-package stringBasics;
+package slidingWindow.variableSizeSlidingWindow;
 
 import java.util.HashSet;
 
