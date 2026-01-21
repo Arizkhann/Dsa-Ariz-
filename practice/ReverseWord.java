@@ -4,7 +4,7 @@ public class ReverseWord {
     public static void main(String[] args) {
 
 
-        String s= "Ananya Routray";
+        String s= "Ariz khan is sajad friend";
 
 
         String words[]=s.split(" ");
