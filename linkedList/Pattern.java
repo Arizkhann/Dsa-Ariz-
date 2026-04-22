@@ -12,34 +12,25 @@ public class Pattern {
         int data;
         Node next;
 
-
+        //constructor
         Node(int data){
-
             this.data=data;
             this.next=null;
-
             size++;
-
         }
-
     }
 
+    //constructor
     public Pattern(){
         size=0;
     }
-
 // 1st method , Add first
-
     public void addFirst(int data){
         Node newNode = new Node(data);
         newNode.next = head;
         head = newNode;
-
-
     }
-
-
-
+    // Print function
     public void printList() {
         Node curr = head;
 
@@ -50,9 +41,6 @@ public class Pattern {
 
         System.out.println("null");
     }
-
-
-
 
     public static void main(String[] args) {
         Pattern obj=new Pattern();
